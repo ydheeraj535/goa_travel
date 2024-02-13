@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 100px;
+    font-size: 18px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+.header-content {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.header-content h3 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: blue;
+    font-size: 18px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ---------------Section - 1--------------- */
+.section-1 .section-1-text h2 {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.section-1 .section-1-text p {
+    font-size: 20px;
+}
+
+hr {
+    width: 180px;
+    margin-inline: auto;
+    border: 1px solid rgb(31, 31, 184);
+    margin-bottom: 50px;
+}
+
+.section-1 .section-1-text {
+    text-align: center;
+    margin-block: 80px;
+}
