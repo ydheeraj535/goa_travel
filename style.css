@@ -140,6 +140,9 @@ hr {
     padding-right: 10px;
 }
 
+
+
+
 .img-2 {
     height: 324px;
     width: 70%;
@@ -152,6 +155,8 @@ hr {
     object-fit: cover;
     padding-bottom: 10px;
 }
+
+
 
 .img-3 {
     height: 324px;
@@ -166,6 +171,8 @@ hr {
     padding-right: 10px;
 }
 
+
+
 .img-4 {
     height: 324px;
     width: 30%;
@@ -177,6 +184,8 @@ hr {
     height: 100%;
     object-fit: cover;
 }
+
+
 
 .image-container {
     display: flex;
@@ -225,8 +234,19 @@ hr {
 .G-tour {
     width: 31%;
 }
+
+.G-tour:hover {
+    background-color: rgb(238, 217, 177);
+    transition: all 0.2s ease-in;
+}
+
 .P-tour {
     width: 29%;
+}
+
+.P-tour:hover {
+    background-color: rgb(238, 217, 177);
+    transition: all 0.2s ease-in;
 }
 
 .icon-wrap-content-2 {
@@ -241,14 +261,26 @@ hr {
 .B-tour {
     width: 31%;
 }
+
+.B-tour:hover {
+    background-color: rgb(238, 217, 177);
+    transition: all 0.2s ease-in;
+}
+
 .S-tour {
     width: 29%;
+}
+
+.S-tour:hover {
+    background-color: rgb(238, 217, 177);
+    transition: all 0.2s ease-in;
 }
 
 i {
     font-size: 50px;
     color: rgb(104, 104, 190);
     margin-bottom: 20px;
+    line-height: 10px;
  }
 
  .icon-wrap h2 {
