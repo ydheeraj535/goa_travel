@@ -189,14 +189,13 @@ hr {
 /* --------------------page-3-------------------- */
 
 .container-1 {
-    border: 2px solid red;
+    border: 1px solid rgb(241, 240, 240);
     background-color: rgb(241, 240, 240);
 }
 
 .container-1 .text-wrap-1 {
     max-width: 740px;
     margin: 0 auto;
-    margin-top: 70px;
     margin-bottom: 70px;
     text-align: center;
 }
@@ -205,6 +204,7 @@ hr {
     margin-bottom: 20px;
     font-size: 28px;
     color: rgb(48, 47, 47);
+    margin-top: 70px;
 }
 
 .container-1 .text-wrap-1 p {
@@ -212,3 +212,54 @@ hr {
     color: rgba(48, 47, 47, 0.8);
     margin-bottom: 60px;
 }
+
+.icon-wrap-content-1 {
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.G-tour {
+    width: 31%;
+}
+.P-tour {
+    width: 29%;
+}
+
+.icon-wrap-content-2 {
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.B-tour {
+    width: 31%;
+}
+.S-tour {
+    width: 29%;
+}
+
+i {
+    font-size: 50px;
+    color: rgb(104, 104, 190);
+    margin-bottom: 20px;
+ }
+
+ .icon-wrap h2 {
+    font-size: 28px;
+    color: rgb(48, 47, 47);
+    margin-bottom: 25px;
+ }
+ .icon-wrap p {
+    font-size: 16px;
+    color: rgba(48, 47, 47, 0.76);
+ }
+
+
+
