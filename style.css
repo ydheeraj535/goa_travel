@@ -13,19 +13,10 @@
 header {
     background-image: url("images/background.jpg");
     background-size: cover;
+    box-shadow: 1px 1px 10px 405px rgba(0, 0, 0, 0.3) inset;
 }
 
-header::after {
-    content: '';
-    background-color: rgba(0, 0, 0, 0.4);
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 84%;
-    z-index: 1;
-}
+
 
 nav li {
     list-style: none;
@@ -55,7 +46,6 @@ nav {
     color: white;
     font-size: 28px;
     font-weight: 500;
-    z-index: 2;
 }
 
 .header-content {
@@ -71,32 +61,24 @@ nav {
     color: white;
     font-size: 55px;
     font-weight: 600;
-    z-index: 2;
 }
 
 .header-content h3 {
     color: white;
     font-size: 25px;
     font-weight: 700;
-    z-index: 2;
 }
 
 .btn {
     text-decoration: none;
     color: white;
     font-size: 15px;
-    background-color: rgb(53, 53, 128);
-    padding: 15px 60px;
+    background-color: rgb(63, 47, 209);
+    padding: 15px 45px;
     border-radius: 5px;
-    z-index: 2;
-}
-.btn:hover {
-    background-color: rgb(28, 28, 73);
 }
 
-ul {
-    z-index: 2;
-}
+
 
 /* --------------------page-2-------------------- */
 
@@ -128,8 +110,8 @@ hr {
 
 .img-1 {
     height: 324px;
-    width: 30%;
     overflow: hidden;
+    flex: 1 1 330px;
 }
 
 .img-1 img {
@@ -145,8 +127,8 @@ hr {
 
 .img-2 {
     height: 324px;
-    width: 70%;
     overflow: hidden;
+    flex: 1 1 770px;
 }
 
 .img-2 img {
@@ -160,8 +142,8 @@ hr {
 
 .img-3 {
     height: 324px;
-    width: 70%;
     overflow: hidden;
+    flex: 1 1 770px;
 }
 
 .img-3 img {
@@ -175,8 +157,8 @@ hr {
 
 .img-4 {
     height: 324px;
-    width: 30%;
     overflow: hidden;
+    flex: 1 1 330px;
 }
 
 .img-4 img {
@@ -232,21 +214,11 @@ hr {
 }
 
 .G-tour {
-    width: 31%;
-}
-
-.G-tour:hover {
-    background-color: rgb(238, 217, 177);
-    transition: all 0.2s ease-in;
+    width: 370px;
 }
 
 .P-tour {
-    width: 29%;
-}
-
-.P-tour:hover {
-    background-color: rgb(238, 217, 177);
-    transition: all 0.2s ease-in;
+    width: 370px;
 }
 
 .icon-wrap-content-2 {
@@ -259,26 +231,16 @@ hr {
 }
 
 .B-tour {
-    width: 31%;
-}
-
-.B-tour:hover {
-    background-color: rgb(238, 217, 177);
-    transition: all 0.2s ease-in;
+    width: 350px;
 }
 
 .S-tour {
-    width: 29%;
-}
-
-.S-tour:hover {
-    background-color: rgb(238, 217, 177);
-    transition: all 0.2s ease-in;
+    width: 350px;
 }
 
 i {
     font-size: 50px;
-    color: rgb(104, 104, 190);
+    color: rgb(151, 151, 248);
     margin-bottom: 20px;
     line-height: 10px;
  }
@@ -293,5 +255,38 @@ i {
     color: rgba(48, 47, 47, 0.76);
  }
 
+ /* --------------------page-3-------------------- */
 
+.testimonial {
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 70px;
+} 
 
+.testimonial h2 {
+    font-size: 28px;
+    color: rgb(48, 47, 47);
+    margin-bottom: 55px;
+}
+
+.testimonial-content {
+    text-align: center;
+    width: 675px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.testimonial-1-content p {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: rgb(48, 47, 47);
+}
+
+.author {
+    font-size: 16px;
+    color: rgba(48, 47, 47, 0.76);
+}
+
+.testimonial-1-content {
+    margin-bottom: 55px;
+}
