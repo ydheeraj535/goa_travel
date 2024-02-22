@@ -72,12 +72,15 @@ nav {
 .btn {
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     background-color: rgb(63, 47, 209);
     padding: 15px 45px;
     border-radius: 5px;
 }
 
+.header-content .btn {
+    font-size: 15px;
+}
 
 
 /* --------------------page-2-------------------- */
@@ -87,7 +90,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     margin-top: 70px;
-    margin-bottom: 35px;
+   margin-bottom: 35px;
 }
 
 h2 {
@@ -99,12 +102,14 @@ h2 {
 p {
     font-size: 16px;
     color: rgba(48, 47, 47, 0.76);
+    line-height: 30px;
     margin-bottom: 60px;
 }
 
 hr {
     width: 250px;
     margin: auto;
+    margin-bottom: 80px;
     color: rgb(91, 91, 163);
 }
 
@@ -259,7 +264,6 @@ hr {
 
 h3 {
     color: rgb(48, 47, 47);
-    margin-bottom: 10px;
 }
 
 .subscribe {
@@ -278,17 +282,19 @@ h3 {
 }
 
 .text {
-    color: rgb(178, 181, 185);
+    font-size: 14px;
+    color: rgba(178, 181, 185, 0.863);
 }
 
 
 .footer-icon i {
     font-size: 20px;
-    background-color: white;
+    background-color: rgb(226, 223, 223);
     margin-left: 10px;
     padding: 5px;    
     margin-bottom: 0px !important;
     color: rgb(61, 82, 88);
+    border-radius: 5px;
 }
 
 footer {
