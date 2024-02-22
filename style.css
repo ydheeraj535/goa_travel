@@ -90,13 +90,13 @@ nav {
     margin-bottom: 35px;
 }
 
-.text-wrap h2 {
+h2 {
     font-size: 28px;
     color: rgb(48, 47, 47);
     margin-bottom: 20px;
 }
 
-.text-wrap p {
+p {
     font-size: 16px;
     color: rgba(48, 47, 47, 0.76);
     margin-bottom: 60px;
@@ -138,8 +138,6 @@ hr {
     padding-bottom: 10px;
 }
 
-
-
 .img-3 {
     height: 324px;
     overflow: hidden;
@@ -153,8 +151,6 @@ hr {
     padding-right: 10px;
 }
 
-
-
 .img-4 {
     height: 324px;
     overflow: hidden;
@@ -167,8 +163,6 @@ hr {
     object-fit: cover;
 }
 
-
-
 .image-container {
     display: flex;
 }
@@ -179,32 +173,12 @@ hr {
 
 /* --------------------page-3-------------------- */
 
-.container-1 {
+.bg-gray {
     border: 1px solid rgb(241, 240, 240);
     background-color: rgb(241, 240, 240);
 }
 
-.container-1 .text-wrap-1 {
-    max-width: 740px;
-    margin: 0 auto;
-    margin-bottom: 70px;
-    text-align: center;
-}
-
-.container-1 .text-wrap-1 h2 {
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: rgb(48, 47, 47);
-    margin-top: 70px;
-}
-
-.container-1 .text-wrap-1 p {
-    font-size: 16px;
-    color: rgba(48, 47, 47, 0.8);
-    margin-bottom: 60px;
-}
-
-.icon-wrap-content-1 {
+.icon-wrap-content {
     display: flex;
     text-align: center;
     width: 80%;
@@ -221,14 +195,6 @@ hr {
     width: 370px;
 }
 
-.icon-wrap-content-2 {
-    display: flex;
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    justify-content: space-around;
-    margin-bottom: 120px;
-}
 
 .B-tour {
     width: 350px;
@@ -238,7 +204,7 @@ hr {
     width: 350px;
 }
 
-i {
+ i {
     font-size: 50px;
     color: rgb(151, 151, 248);
     margin-bottom: 20px;
@@ -255,7 +221,7 @@ i {
     color: rgba(48, 47, 47, 0.76);
  }
 
- /* --------------------page-3-------------------- */
+ /* --------------------page-4-------------------- */
 
 .testimonial {
     margin-top: 70px;
@@ -263,20 +229,18 @@ i {
     margin-bottom: 70px;
 } 
 
-.testimonial h2 {
-    font-size: 28px;
-    color: rgb(48, 47, 47);
+ h2 {
     margin-bottom: 55px;
 }
 
-.testimonial-content {
+.testimonial-wrap {
     text-align: center;
     width: 675px;
     margin: 0 auto;
     margin-bottom: 100px;
 }
 
-.testimonial-1-content p {
+.testimonial-content p {
     margin-bottom: 30px;
     font-size: 20px;
     color: rgb(48, 47, 47);
@@ -287,6 +251,50 @@ i {
     color: rgba(48, 47, 47, 0.76);
 }
 
-.testimonial-1-content {
+.testimonial-content {
     margin-bottom: 55px;
+}
+
+/* --------------------page-5-------------------- */
+
+h3 {
+    color: rgb(48, 47, 47);
+    margin-bottom: 10px;
+}
+
+.subscribe {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.search {
+    padding: 13px 80px;
+    margin-right: 25px;
+}
+
+/* --------------------footer-section-------------------- */
+.bg-teal {
+    background-color: rgb(61, 82, 88);
+}
+
+.text {
+    color: rgb(178, 181, 185);
+}
+
+
+.footer-icon i {
+    font-size: 20px;
+    background-color: white;
+    margin-left: 10px;
+    padding: 5px;    
+    margin-bottom: 0px !important;
+    color: rgb(61, 82, 88);
+}
+
+footer {
+    padding-block: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
