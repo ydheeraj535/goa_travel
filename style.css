@@ -85,32 +85,31 @@ nav {
 
 /* --------------------page-2-------------------- */
 
-.container .text-wrap{
-    max-width: 750px;
+ .text-wrap {
+    max-width: 740px;
     margin: 0 auto;
     text-align: center;
     margin-top: 70px;
-   margin-bottom: 35px;
+   margin-bottom: 40px;
 }
 
 h2 {
     font-size: 28px;
     color: rgb(48, 47, 47);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 p {
     font-size: 16px;
     color: rgba(48, 47, 47, 0.76);
     line-height: 30px;
-    margin-bottom: 60px;
 }
 
 hr {
     width: 250px;
-    margin: auto;
-    margin-bottom: 80px;
+    margin: 0 auto;
     color: rgb(91, 91, 163);
+    margin-top: 68px;
 }
 
 .img-1 {
@@ -126,9 +125,6 @@ hr {
     padding-bottom: 10px;
     padding-right: 10px;
 }
-
-
-
 
 .img-2 {
     height: 324px;
@@ -184,65 +180,39 @@ hr {
 }
 
 .icon-wrap-content {
-    display: flex;
+    display: grid;
     text-align: center;
-    width: 80%;
+    width: 900px;
     margin: auto;
-    justify-content: space-around;
-    margin-bottom: 120px;
+    grid-template-columns: auto auto;
+    gap: 170px;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
 
-.G-tour {
-    width: 370px;
-}
-
-.P-tour {
-    width: 370px;
-}
-
-
-.B-tour {
-    width: 350px;
-}
-
-.S-tour {
-    width: 350px;
-}
 
  i {
     font-size: 50px;
     color: rgb(151, 151, 248);
     margin-bottom: 20px;
-    line-height: 10px;
  }
-
- .icon-wrap h2 {
-    font-size: 28px;
-    color: rgb(48, 47, 47);
-    margin-bottom: 25px;
- }
- .icon-wrap p {
-    font-size: 16px;
-    color: rgba(48, 47, 47, 0.76);
- }
-
+ 
  /* --------------------page-4-------------------- */
-
-.testimonial {
-    margin-top: 70px;
-    text-align: center;
-    margin-bottom: 70px;
-} 
-
- h2 {
-    margin-bottom: 55px;
-}
 
 .testimonial-wrap {
     text-align: center;
     width: 675px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-bottom: 85px;
+}
+
+.testimonial-content {
+    margin-bottom: 70px;
+}
+
+.testimonial-wrap {
+    margin-bottom: 90px;
 }
 
 .testimonial-content p {
@@ -256,9 +226,6 @@ hr {
     color: rgba(48, 47, 47, 0.76);
 }
 
-.testimonial-content {
-    margin-bottom: 55px;
-}
 
 /* --------------------page-5-------------------- */
 
@@ -272,7 +239,8 @@ h3 {
 }
 
 .search {
-    padding: 13px 80px;
+    width: 300px;
+    line-height: 40px;
     margin-right: 25px;
 }
 
@@ -282,7 +250,7 @@ h3 {
 }
 
 .text {
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(178, 181, 185, 0.863);
 }
 
@@ -302,5 +270,4 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
